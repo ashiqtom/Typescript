@@ -10,5 +10,5 @@ const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 app.use(todos_1.default);
 app.listen(3000, () => {
-    console.log('running localhost 3000');
+    console.log('running localhost on 3000');
 });
